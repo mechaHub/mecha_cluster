@@ -3,8 +3,14 @@ ScriptsOnlyBuild:
     ClusterVR.CreatorKit.Editor.dll:
     - ClusterVR.CreatorKit.Editor.Builder.BuiltAssetBundlePaths
     - ClusterVR.CreatorKit.Editor.Window.View.VenueUploadWindow
-    ClusterVR.CreatorKit.Preview.dll:
-    - ClusterVR.CreatorKit.Preview.Common.TickGenerator
+    ClusterVR.CreatorKit.Gimmick.Implements.dll:
+    - ClusterVR.CreatorKit.Gimmick.Implements.AddContinuousForceItemGimmick
+    ClusterVR.CreatorKit.Item.Implements.dll:
+    - ClusterVR.CreatorKit.Item.Implements.Item
+    - ClusterVR.CreatorKit.Item.Implements.MovableItem
+    - ClusterVR.CreatorKit.Item.Implements.RidableItem
+    ClusterVR.CreatorKit.Trigger.Implements.dll:
+    - ClusterVR.CreatorKit.Trigger.Implements.SteerItemTrigger
     ClusterVR.CreatorKit.World.Implements.dll:
     - ClusterVR.CreatorKit.World.Implements.CommentScreenViews.StandardCommentScreenView
     - ClusterVR.CreatorKit.World.Implements.CommentScreenViews.StandardCommentScreenViewCell
@@ -16,10 +22,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     - UnityEditor.Graphs.ParameterControllerEditor
     UnityEditor.TestRunner.dll:
@@ -56,6 +60,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
     - Class: 65
@@ -79,6 +85,10 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11264}
     - Class: 114
+      Script: {instanceID: 11276}
+    - Class: 114
+      Script: {instanceID: 11422}
+    - Class: 114
       Script: {instanceID: 11438}
     - Class: 114
       Script: {instanceID: 11568}
@@ -91,13 +101,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11970}
     - Class: 114
+      Script: {instanceID: 12370}
+    - Class: 114
       Script: {instanceID: 12438}
+    - Class: 114
+      Script: {instanceID: 12450}
     - Class: 114
       Script: {instanceID: 12906}
     - Class: 114
       Script: {instanceID: 12930}
     - Class: 114
       Script: {instanceID: 12984}
+    - Class: 114
+      Script: {instanceID: 13042}
     - Class: 114
       Script: {instanceID: 13436}
     - Class: 114
@@ -109,6 +125,8 @@ ScriptsOnlyBuild:
     - Class: 135
       Script: {instanceID: 0}
     - Class: 136
+      Script: {instanceID: 0}
+    - Class: 143
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -151,6 +169,18 @@ ScriptsOnlyBuild:
     className: CanvasScaler
   - hash:
       serializedVersion: 2
+      Hash: 022fc87f70140141d1ccab3095614bb6
+    assemblyName: ClusterVR.CreatorKit.Gimmick.Implements.dll
+    namespaceName: ClusterVR.CreatorKit.Gimmick.Implements
+    className: AddContinuousForceItemGimmick
+  - hash:
+      serializedVersion: 2
+      Hash: c84492876755b78607aac877dd2d4140
+    assemblyName: ClusterVR.CreatorKit.Trigger.Implements.dll
+    namespaceName: ClusterVR.CreatorKit.Trigger.Implements
+    className: SteerItemTrigger
+  - hash:
+      serializedVersion: 2
       Hash: 26f54d9d26098f5bc1f9ae2db2f1426a
     assemblyName: ClusterVR.CreatorKit.World.Implements.dll
     namespaceName: ClusterVR.CreatorKit.World.Implements.CommentScreenViews
@@ -187,10 +217,22 @@ ScriptsOnlyBuild:
     className: Mask
   - hash:
       serializedVersion: 2
+      Hash: 65aa9c76ebc90f987df6729d23699aa8
+    assemblyName: ClusterVR.CreatorKit.Item.Implements.dll
+    namespaceName: ClusterVR.CreatorKit.Item.Implements
+    className: Item
+  - hash:
+      serializedVersion: 2
       Hash: 49be8f2ddceb2c99faa440c7f8f4aa39
     assemblyName: ClusterVR.CreatorKit.World.Implements.dll
     namespaceName: ClusterVR.CreatorKit.World.Implements.MainScreenViews
     className: StandardMainScreenView
+  - hash:
+      serializedVersion: 2
+      Hash: 9715498937eb70e5ac297fb5fd7cbe8e
+    assemblyName: ClusterVR.CreatorKit.Item.Implements.dll
+    namespaceName: ClusterVR.CreatorKit.Item.Implements
+    className: MovableItem
   - hash:
       serializedVersion: 2
       Hash: 5a7898259f87aadf406644eb5c3ef9fb
@@ -209,6 +251,12 @@ ScriptsOnlyBuild:
     assemblyName: ClusterVR.CreatorKit.World.Implements.dll
     namespaceName: ClusterVR.CreatorKit.World.Implements.DespawnHeights
     className: DespawnHeight
+  - hash:
+      serializedVersion: 2
+      Hash: 75dd77d3eaf67a85b31ce41fca5ed55a
+    assemblyName: ClusterVR.CreatorKit.Item.Implements.dll
+    namespaceName: ClusterVR.CreatorKit.Item.Implements
+    className: RidableItem
   - hash:
       serializedVersion: 2
       Hash: 55ac18881c80a7863e0976b428d4955d
