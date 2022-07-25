@@ -5,10 +5,15 @@ ScriptsOnlyBuild:
     - ClusterVR.CreatorKit.Editor.Window.View.VenueUploadWindow
     ClusterVR.CreatorKit.Gimmick.Implements.dll:
     - ClusterVR.CreatorKit.Gimmick.Implements.AddContinuousForceItemGimmick
+    - ClusterVR.CreatorKit.Gimmick.Implements.AddContinuousTorqueItemGimmick
+    - ClusterVR.CreatorKit.Gimmick.Implements.SetVelocityCharacterItemGimmick
     ClusterVR.CreatorKit.Item.Implements.dll:
+    - ClusterVR.CreatorKit.Item.Implements.CharacterItem
     - ClusterVR.CreatorKit.Item.Implements.Item
     - ClusterVR.CreatorKit.Item.Implements.MovableItem
     - ClusterVR.CreatorKit.Item.Implements.RidableItem
+    ClusterVR.CreatorKit.Preview.dll:
+    - ClusterVR.CreatorKit.Preview.Common.TickGenerator
     ClusterVR.CreatorKit.Trigger.Implements.dll:
     - ClusterVR.CreatorKit.Trigger.Implements.SteerItemTrigger
     ClusterVR.CreatorKit.World.Implements.dll:
@@ -89,6 +94,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11276}
     - Class: 114
+      Script: {instanceID: 11362}
+    - Class: 114
       Script: {instanceID: 11422}
     - Class: 114
       Script: {instanceID: 11438}
@@ -102,6 +109,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 11844}
     - Class: 114
       Script: {instanceID: 11970}
+    - Class: 114
+      Script: {instanceID: 12100}
+    - Class: 114
+      Script: {instanceID: 12218}
     - Class: 114
       Script: {instanceID: 12370}
     - Class: 114
@@ -177,6 +188,12 @@ ScriptsOnlyBuild:
     className: AddContinuousForceItemGimmick
   - hash:
       serializedVersion: 2
+      Hash: fcd6a34ef5fadb741150dc243135f577
+    assemblyName: ClusterVR.CreatorKit.Gimmick.Implements.dll
+    namespaceName: ClusterVR.CreatorKit.Gimmick.Implements
+    className: AddContinuousTorqueItemGimmick
+  - hash:
+      serializedVersion: 2
       Hash: c84492876755b78607aac877dd2d4140
     assemblyName: ClusterVR.CreatorKit.Trigger.Implements.dll
     namespaceName: ClusterVR.CreatorKit.Trigger.Implements
@@ -217,6 +234,18 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: c1b4e7111ac15b9bf737b39cedd8881c
+    assemblyName: ClusterVR.CreatorKit.Item.Implements.dll
+    namespaceName: ClusterVR.CreatorKit.Item.Implements
+    className: CharacterItem
+  - hash:
+      serializedVersion: 2
+      Hash: 88925ad478c7fcea170a9754e1ba9999
+    assemblyName: ClusterVR.CreatorKit.Gimmick.Implements.dll
+    namespaceName: ClusterVR.CreatorKit.Gimmick.Implements
+    className: SetVelocityCharacterItemGimmick
   - hash:
       serializedVersion: 2
       Hash: 65aa9c76ebc90f987df6729d23699aa8
@@ -274,4 +303,4 @@ ScriptsOnlyBuild:
   platform: 5
   scenePathNames:
   - Assets/venue_14166cb35762a9ecd12fac9a0e.unity
-  playerPath: /var/folders/71/fr14_tld4k7b88dm2sjg7w_r0000gn/T/DefaultCompany/cl_world_presen_2208/StandaloneWindows/venue_14166cb35762a9ecd12fac9a0e
+  playerPath: C:/Users/S07710/AppData/Local/Temp/DefaultCompany/cl_world_presen_2208/StandaloneWindows/venue_14166cb35762a9ecd12fac9a0e
