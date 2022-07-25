@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/World/Pure Poly/Free Low Poly Nature Pack/Scenes/Demo_01.unity
+- path: Assets/Scenes/cl_world_presen2208.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
