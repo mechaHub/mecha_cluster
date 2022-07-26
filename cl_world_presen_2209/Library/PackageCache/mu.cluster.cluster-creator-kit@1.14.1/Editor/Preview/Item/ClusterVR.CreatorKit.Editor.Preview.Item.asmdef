@@ -1,0 +1,19 @@
+﻿{
+    "name": "ClusterVR.CreatorKit.Editor.Preview.Item",
+    "references": [
+        "ClusterVR.CreatorKit.Editor.Preview.World",
+        "ClusterVR.CreatorKit.Item",
+        "ClusterVR.CreatorKit.Gimmick",
+        "ClusterVR.CreatorKit.Preview"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}

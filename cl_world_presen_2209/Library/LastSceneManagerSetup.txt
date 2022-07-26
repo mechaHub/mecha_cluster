@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/Scenes/cl_world_presen2208.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
