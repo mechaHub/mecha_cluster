@@ -22,6 +22,7 @@ ScriptsOnlyBuild:
     - ClusterVR.CreatorKit.World.Implements.DespawnHeights.DespawnHeight
     - ClusterVR.CreatorKit.World.Implements.MainScreenViews.StandardMainScreenView
     - ClusterVR.CreatorKit.World.Implements.SpawnPoints.SpawnPoint
+    - ClusterVR.CreatorKit.World.Implements.WarpPortal.PlayerEnterWarpPortal
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     UnityEditor.Graphs.dll:
@@ -130,6 +131,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13436}
     - Class: 114
+      Script: {instanceID: 13520}
+    - Class: 114
       Script: {instanceID: 13714}
     - Class: 115
       Script: {instanceID: 0}
@@ -144,6 +147,12 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 205
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -294,6 +303,12 @@ ScriptsOnlyBuild:
     assemblyName: ClusterVR.CreatorKit.World.Implements.dll
     namespaceName: ClusterVR.CreatorKit.World.Implements.CommentScreenViews
     className: StandardCommentScreenView
+  - hash:
+      serializedVersion: 2
+      Hash: 2b1aa5884725c486971b2974e2b3b7cd
+    assemblyName: ClusterVR.CreatorKit.World.Implements.dll
+    namespaceName: ClusterVR.CreatorKit.World.Implements.WarpPortal
+    className: PlayerEnterWarpPortal
   - hash:
       serializedVersion: 2
       Hash: caa533b001ae39b864ba8425019e2268
